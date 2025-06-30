@@ -301,3 +301,98 @@ ul a:hover{
 .copy-right{
     padding-top : 10px;  
 }
+/* ✅ Tablet devices (width <= 1024px) */
+@media (max-width: 1024px) {
+  .nav-search {
+    width: 80%;
+  }
+
+  .panel-ops {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .box {
+    width: 45%; /* 2 boxes per row on tablet */
+  }
+}
+
+/* ✅ Mobile devices (width <= 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav-search {
+    width: 95%;
+    margin: 10px 0;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .panel-ops {
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80%; /* 1 box per row on mobile */
+  }
+
+  .foot-panel2 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .foot-panel3 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .hero-msg {
+    width: 95%;
+    font-size: 12px;
+  }
+}
+
+/* ✅ Small mobile devices (width <= 480px) */
+@media (max-width: 480px) {
+  .box {
+    width: 95%;
+  }
+
+  .panel-deals {
+    font-size: 12px;
+  }
+
+  .search-icon {
+    font-size: 1rem;
+  }
+
+  .nav-cart i {
+    font-size: 24px;
+  }
+
+  .nav-second {
+    font-size: 12px;
+  }
+
+  .hero-msg {
+    font-size: 11px;
+  }
+}
